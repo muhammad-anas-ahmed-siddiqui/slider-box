@@ -1,0 +1,56 @@
+.card {
+  float: left;
+  width: 145px;
+  height: 145px;
+  padding: 0px;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+.box {
+  box-sizing: border-box;
+  border: 1px solid #FFFFFF;
+  border-radius: 12px;
+  width: 700px;
+  height: 200px;
+  margin-left: 100px;
+  margin-top: 200px;
+  overflow: hidden;
+}
+
+
+.scroll-button-left {
+  position: absolute;
+  margin-left: 85px;
+  margin-top: 80px;
+  z-index: 1000px;
+}
+
+.scroll-button-right {
+  position: absolute;
+  margin-left: 785px;
+  margin-top: -115px;
+  z-index: 1000px;
+}
+
+
+
+.green {
+   background-color: green;
+}
+
+.blue {
+   background-color: blue;
+}
+
+.purple {
+   background-color: purple;
+}
+
+.yellow {
+   background-color: yellow;
+}
+
+.orange {
+   background-color: orange;
+}
